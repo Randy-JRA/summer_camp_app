@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "668228199438",
+    "project_id": "summer-camp-app-3938d",
+    "storage_bucket": "summer-camp-app-3938d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668228199438:android:e5580c1038ebe44b4f485f",
+        "android_client_info": {
+          "package_name": "com.sprawnmultiverse.camp_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668228199438-0imkf7fl8lvhfglrrslv2vccqeclstmp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNCE4QoN24BjFXQeEJsMTf6Jooh6rA72E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668228199438-0imkf7fl8lvhfglrrslv2vccqeclstmp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
