@@ -38,7 +38,7 @@ class _HomePageState extends State<HomePage> {
 class Body extends StatelessWidget {
   const Body({Key? key}) : super(key: key);
 
-  final myNumber = 67; //displays the number of people who have registered already
+  final myNumber = 45; //displays the number of people who have registered already
 
   @override
   Widget build(BuildContext context) {
@@ -265,7 +265,10 @@ class Body extends StatelessWidget {
                             ),
                             child: const Text('View Activities'),
                           ),
-                          Image.asset('assets/images/campmain.png', width: 200, height: 200),
+                          Expanded(
+                            child: Image.asset('assets/images/campmain.png',),
+                          ),
+                          //Image.asset('assets/images/campmain.png', width: 200, height: 200),
                         ],
                       ),
                     ),
@@ -303,7 +306,7 @@ class Body extends StatelessWidget {
                         ),
                         const SizedBox(height: 5,),
                         const Text(
-                          'More than',
+                          'Number Registered',
                           style: TextStyle(fontSize: 14, color: AppColors.myprimary, fontWeight: FontWeight.bold),
                         ),
                         const SizedBox(height: 5,),
@@ -316,8 +319,8 @@ class Body extends StatelessWidget {
                           ),
                         ),
                         const Text(
-                          'Registered',
-                          style: TextStyle(fontSize: 14, color: AppColors.myprimary, fontWeight: FontWeight.bold),
+                          'Registration Ongoing',
+                          style: TextStyle(fontSize: 12, color: AppColors.myprimary, fontWeight: FontWeight.bold),
                         ),
                         const Icon(
                           Icons.people,
